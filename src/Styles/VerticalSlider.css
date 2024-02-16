@@ -1,0 +1,28 @@
+.vertical-slider {
+    height: 150px;
+    /* Adjust height as needed */
+    border: 1px solid #ccc;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    /* Add smooth scrolling behavior */
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}
+
+.selected {
+    background-color: lightblue;
+    /* Example styling for selected option */
+}

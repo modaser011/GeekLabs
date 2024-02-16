@@ -1,0 +1,55 @@
+.image {
+    width: 10px;
+    height: 10px;
+    margin-top: .58rem;
+    margin-right: .555rem;
+}
+
+.IndusteriesCol {
+    border-left: 3px solid gray;
+    /* margin-top: -0.8rem !important; */
+    color: white;
+    font-size: 13.5px;
+    /* width: 15rem !important; */
+    margin-top: -.7rem;
+    height: min-content !important;
+}
+
+.industImage {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    margin-top: .5rem;
+}
+
+.industriesDiv {
+    /* background-color: aqua; */
+    height: fit-content !important;
+    margin-top: -.7rem;
+    margin-bottom: -.6rem;
+    cursor: pointer !important;
+}
+
+.industriesDiv:hover {
+    background-color: #53ACFF;
+    height: 1.4rem !important;
+    /* margin-top: 0.1rem; */
+    margin-bottom: .55rem;
+    border-radius: .3rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    width: max-content !important;
+    cursor: pointer !important;
+}
+
+.industriesDiv1:hover {
+    background-color: #53ACFF;
+    height: 1.4rem !important;
+    /* margin-top: 0.1rem; */
+    margin-bottom: .55rem;
+    border-radius: .3rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    width: max-content !important;
+    cursor: pointer !important;
+}

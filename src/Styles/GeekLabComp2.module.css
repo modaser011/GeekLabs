@@ -1,0 +1,88 @@
+.component2Col {
+    background-color: #181818 !important;
+    border-radius: .5rem .5rem .5rem .5rem;
+    height: max-content !important;
+}
+
+.Deletebutton {
+    background-color: #53ACFF;
+    border-radius: 0.5rem;
+    height: 1.1rem;
+    padding-bottom: 1.5rem;
+}
+
+.paragraph1 {
+    margin-left: 3px !important;
+    font-weight: 490;
+    color: #181818;
+}
+
+.ButtonsRow {
+    border-radius: .5rem;
+    background-color: #202020;
+    margin-top: -1rem !important;
+}
+
+.wordContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.word {
+    font-size: 13px !important;
+    /* Adjust the font size as needed */
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s, opacity 0.3s;
+    font-size: smaller;
+    /* background-color: aliceblue; */
+    padding-block: -2rem !important;
+    transform: scale(.9);
+}
+
+.selected {
+    transform: scale(1.3);
+    background-color: #53ACFF;
+    border-radius: .3rem;
+    padding-inline: .4rem;
+    width: fit-content;
+    padding-block: 0;
+    /* height: 10% !important; */
+    /* font-size: xx-small; */
+}
+
+.fade {
+    opacity: 0.5;
+}
+
+.component3Div {
+    background-color: #202020;
+    border-radius: .5rem;
+    padding-left: 10px;
+}
+
+.search {
+    background-color: #313131 !important;
+    border: none !important;
+    color: white !important;
+    margin-top: -.1rem;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    width: 90% !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 15px) center;
+    padding-right: 25px;
+    /* Adjust as needed */
+}
+
+.search::placeholder {
+    color: rgb(163, 163, 163) !important;
+}
+
+.stock {
+    padding-top: 2rem !important;
+}

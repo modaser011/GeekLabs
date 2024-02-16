@@ -1,0 +1,28 @@
+.image {
+    width: 10px;
+    height: 10px;
+    margin-top: .58rem;
+    margin-right: .555rem;
+}
+
+input[type="radio"] {
+    border-color: black !important;
+    background-color: rgb(95, 95, 95) !important;
+}
+
+input[type="radio"]:checked {
+    background-color: rgb(95, 95, 95)!important;
+}
+
+input[type='radio']:checked:after {
+    width: 8px;
+    height: 8px;
+    border-radius: 15px;
+    top: -7px;
+    left: 3.4px;
+    position: relative;
+    background-color: #53ACFF;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}

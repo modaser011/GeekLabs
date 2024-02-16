@@ -1,0 +1,32 @@
+.Not_row {
+    border-radius: .5rem;
+    color: white !important;
+    background-color: hsl(0, 0%, 19%) !important;
+    padding-bottom: .8rem;
+    padding-top: .8rem;
+    cursor: pointer;
+}
+
+.ExpandNot_row {
+    border-radius: .5rem;
+    color: white !important;
+    background-color: #53ACFF !important;
+    padding-top: .55rem;
+    cursor: pointer;
+    overflow-wrap: anywhere;
+}
+
+.img4 {
+    border: 1px solid white;
+}
+
+.internalRow {
+    background-color: hsl(0, 0%, 19%) !important;
+    margin-top: 1.4rem !important;
+    border-radius: 0 0 .4rem .4rem;
+    cursor: auto;
+}
+
+.colNot {
+    border-radius: .57rem;
+}

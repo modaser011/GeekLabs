@@ -1,0 +1,27 @@
+.slidesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Adjust the gap between slides */
+}
+
+.slide {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Adjust the gap between items within each slide */
+}
+
+.slideItem {
+    flex: 1 0 25%;
+    /* Each item takes 25% of the slide width */
+}
+
+.slideItem img {
+    width: 100%;
+    height: auto;
+}
+
+.slideItem p {
+    text-align: center;
+}

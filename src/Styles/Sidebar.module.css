@@ -1,0 +1,64 @@
+/* Sidebar.module.css */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 65px;
+    background-color: #181818;
+    transition: width 0.5s ease;
+    overflow: hidden;
+    margin-right: 5rem !important;
+    z-index: 9999999999;
+}
+
+.partialSidebar {
+    height: 100%;
+    width: 100%;
+    background-color: #181818;
+}
+
+.fullSidebar {
+    background-color: #181818;
+    width: 170px;
+    height: 100%;
+}
+
+.sidebar:hover {
+    width: 170px;
+}
+
+.logo2,
+.mainLogo {
+    transition: width 0.9s ease;
+    display: block !important;
+    width: 1.2rem;
+}
+
+.Links:hover {
+    color: #53ACFF !important;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+
+.person {
+    width: 40px;
+    height: 40px;
+    /* left: 0; */
+}
+
+.personWrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: -1rem;
+}
+
+.person2 {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2rem;
+}
